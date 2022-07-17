@@ -18,12 +18,12 @@ export default function Homepage() {
               </a>
             </div>
           </Link>
-          <div className={styles.card}>
-            <h2>API Sample </h2>
-            <Link href='/'>
-              LogIn Page
-            </Link>
-          </div>
+          <Link href='/signup-login'>
+            <div className={styles.card}>
+              <h2>SignUp-LogIn</h2>
+              With API
+            </div>
+          </Link>
         </div>
       </main>
       <footer className={styles.footer}>
